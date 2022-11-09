@@ -1,0 +1,21 @@
+{
+  "name": "doom-sourcerer",
+  "displayName": "doom-sourcerer",
+  "description": "Port of the doom-emacs sourcerer theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Sourcerer",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Sourcerer-color-theme.json"
+      }
+    ]
+  }
+}
