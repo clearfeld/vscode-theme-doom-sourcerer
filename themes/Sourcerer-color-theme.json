@@ -6,8 +6,17 @@
     "activityBarBadge.background": "#007acc",
     "sideBarTitle.foreground": "#bbbbbb",
     "editor.selectionBackground": "#3c3c3c",
+
+    "focusBorder": "#007acc",
+
     "sideBar.background": "#111111",
-    "activityBar.background": "#32353f"
+    "list.hoverBackground": "#171717",
+    "list.activeSelectionBackground": "#161a29",
+    "list.activeSelectionForeground": "#c2c2b0",
+
+    "activityBar.background": "#32353f",
+    "statusBar.background": "#282a30",
+    "titleBar.activeBackground": "#282a30"
   },
   "tokenColors": [
     {
@@ -24,13 +33,18 @@
         "foreground": "#686858"
       }
     },
-    {
-      "name": "Variables",
-      "scope": ["variable", "string constant.other.placeholder"],
-      "settings": {
-        "foreground": "#00dfdf"
-      }
-    },
+
+    // {
+    //   "name": "Variables",
+    //   "scope": [
+    //     "variable",
+    //     "string constant.other.placeholder"
+    //   ],
+    //   "settings": {
+    //     "foreground": "#00dfdf"
+    //   }
+    // },
+
     {
       "name": "Colors",
       "scope": ["constant.other.color"],
@@ -103,6 +117,7 @@
         "foreground": "#c2c2b0"
       }
     },
+
     {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
@@ -678,8 +693,63 @@
       "settings": {
         "foreground": "#c2c2b0"
       }
-    }
+    },
 
     // JSON END
+
+    // JAVASCRIPT / TYPESCRIPT / REACT START
+
+    {
+      "scope": [
+        "keyword.control.import.tsx",
+        "keyword.control.from.tsx",
+        "keyword.control.flow.tsx",
+        "keyword.control.conditional.tsx",
+        "keyword.control.loop.tsx",
+        "punctuation.definition.template-expression.begin.tsx",
+        "punctuation.definition.template-expression.end.tsx",
+        "support.type.primitive.tsx",
+        "punctuation.definition.tag.begin.tsx",
+        "punctuation.definition.tag.end.tsx",
+        "keyword.control.export.tsx",
+        "keyword.control.default.tsx",
+        "keyword.control.switch.tsx"
+      ],
+      "settings": {
+        "foreground": "#87AFD7"
+      }
+    },
+
+    {
+      "scope": [
+        "punctuation.definition.block.tsx",
+        "punctuation.terminator.statement.tsx",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "punctuation.definition.parameters.begin.tsx",
+        "punctuation.definition.parameters.end.tsx",
+        "meta.object-literal.key.tsx",
+        "meta.brace.round.tsx",
+        "punctuation.separator.key-value.tsx",
+        "punctuation.separator.comma.tsx",
+        "variable.object.property.tsx"
+      ],
+      "settings": {
+        "foreground": "#c2c2b0"
+      }
+    },
+
+    {
+      "scope": [
+        "entity.name.function.tsx",
+        "entity.name.type.interface.tsx",
+        "variable.other.readwrite.tsx"
+      ],
+      "settings": {
+        "foreground": "#8181a6"
+      }
+    }
+
+    // JAVASCRIPT / TYPESCRIPT / REACT START
   ]
 }
