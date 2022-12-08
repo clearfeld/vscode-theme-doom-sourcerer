@@ -15,7 +15,11 @@
     "list.activeSelectionForeground": "#c2c2b0",
 
     "activityBar.background": "#32353f",
+
     "statusBar.background": "#282a30",
+    "statusBar.noFolderBackground": "#111111",
+    "statusBar.debuggingBackground": "#8181a6",
+
     "titleBar.activeBackground": "#282a30"
   },
   "tokenColors": [
@@ -596,7 +600,9 @@
     {
       "scope": [
         "punctuation.support.type.property-name.begin.json.comments",
-        "punctuation.support.type.property-name.end.json.comments"
+        "punctuation.support.type.property-name.end.json.comments",
+        "punctuation.support.type.property-name.begin.json",
+        "punctuation.support.type.property-name.end.json",
       ],
       "settings": {
         "foreground": "#578F8F"
@@ -634,7 +640,9 @@
     {
       "name": "JSON Key - Level 2",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "punctuation.definition.string.begin.json",
+        "punctuation.definition.string.end.json"
       ],
       "settings": {
         "foreground": "#719611"
@@ -688,7 +696,13 @@
     {
       "name": "JSON Key - Level 8",
       "scope": [
-        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
+        "source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json",
+        "punctuation.definition.dictionary.begin.json",
+        "punctuation.definition.dictionary.end.json",
+        "punctuation.separator.dictionary.pair.json",
+        "punctuation.definition.array.begin.json",
+        "punctuation.definition.array.end.json",
+        "punctuation.separator.dictionary.key-value.json"
       ],
       "settings": {
         "foreground": "#c2c2b0"

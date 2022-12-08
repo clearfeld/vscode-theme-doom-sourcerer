@@ -2,7 +2,7 @@
   "name": "doom-sourcerer",
   "displayName": "doom-sourcerer",
   "description": "Port of the doom-emacs sourcerer theme",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "clearfeld",
   "engines": {
     "vscode": "^1.73.0"
