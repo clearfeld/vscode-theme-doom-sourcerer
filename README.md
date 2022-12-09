@@ -1,16 +1,13 @@
-# doom-sourcerer README
+# Doom Sourcerer
 
-## Working with Markdown
+![VSCodium_PoJ8LumQVK](https://user-images.githubusercontent.com/49600278/206622263-baeabc1f-d4e6-4109-b5a3-8a27a9950408.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+A port of the doom-emacs sourcerer theme 
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+## Currently supported
 
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+* Javascript & Typescript
+* Rust
+* Json
+* Html
+* CSS & SCSS
