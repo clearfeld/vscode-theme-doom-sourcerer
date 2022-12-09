@@ -1,6 +1,6 @@
 # Doom Sourcerer
 
-![VSCodium_PoJ8LumQVK](https://user-images.githubusercontent.com/49600278/206622263-baeabc1f-d4e6-4109-b5a3-8a27a9950408.png)
+![VSCodium_b6kjpIeDyI](https://user-images.githubusercontent.com/49600278/206633456-8e012571-92c2-4015-b5b3-f14f35fe988b.png)
 
 A port of the doom-emacs sourcerer theme 
 
