@@ -4,6 +4,8 @@ All notable changes to the "doom-sourcerer" extension will be documented in this
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [Released]
 
-- Initial release
+### 0.0.6
+
+- Add xml color support and by extension svg

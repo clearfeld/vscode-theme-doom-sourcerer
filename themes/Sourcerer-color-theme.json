@@ -869,8 +869,48 @@
       "settings": {
         "foreground": "#8181a6"
       }
+    },
+
+    // JAVASCRIPT / TYPESCRIPT / REACT END
+
+    // XML - SVG START
+
+    {
+      "scope": ["punctuation.definition.tag.xml"],
+      "settings": {
+        "foreground": "#87AFD7"
+      }
+    },
+
+    {
+      "scope": [
+        "punctuation.definition.string.begin.xml",
+        "punctuation.definition.string.end.xml"
+      ],
+      "settings": {
+        "foreground": "#87875F"
+      }
+    },
+
+    {
+      "scope": ["variable.language.documentroot.xml"],
+      "settings": {
+        "foreground": "#cc8800"
+      }
+    },
+
+    {
+      "scope": [
+        "meta.tag.preprocessor.xml",
+        "meta.tag.xml",
+        "punctuation.separator.namespace.xml",
+        "punctuation.definition.tag.xml"
+      ],
+      "settings": {
+        "foreground": "#87AFD7"
+      }
     }
 
-    // JAVASCRIPT / TYPESCRIPT / REACT START
+    // XML - SVG END
   ]
 }
