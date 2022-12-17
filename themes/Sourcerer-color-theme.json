@@ -773,7 +773,8 @@
         "support.type.primitive.ts",
         "keyword.control.export.ts",
         "keyword.control.as.ts",
-        "keyword.control.conditional.ts"
+        "keyword.control.conditional.ts",
+        "keyword.control.as.tsx"
       ],
       "settings": {
         "foreground": "#87AFD7"
@@ -801,7 +802,8 @@
         "variable.parameter",
         "entity.name.variable",
         "punctuation.accessor.ts",
-        "punctuation.separator.comma.ts"
+        "punctuation.separator.comma.ts",
+        "meta.jsx.children.tsx"
       ],
       "settings": {
         "foreground": "#c2c2b0"
@@ -909,8 +911,42 @@
       "settings": {
         "foreground": "#87AFD7"
       }
-    }
+    },
 
     // XML - SVG END
+
+    // HTML START
+
+    {
+      "scope": [
+        "punctuation.definition.tag.end.html",
+        "punctuation.definition.tag.begin.html"
+      ],
+      "settings": {
+        "foreground": "#87AFD7"
+      }
+    },
+
+    {
+      "scope": [
+        "punctuation.definition.string.begin.html",
+        "punctuation.definition.string.end.html"
+      ],
+      "settings": {
+        "foreground": "#87875F"
+      }
+    },
+
+
+    {
+      "scope": [
+        "punctuation.separator.key-value.html",
+      ],
+      "settings": {
+        "foreground": "#87AFD7"
+      }
+    },
+
+    // HTML END
   ]
 }

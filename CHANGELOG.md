@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+### 0.0.7
+
+- Add better pure html file color support.
+
 ### 0.0.6
 
-- Add xml color support and by extension svg
+- Add xml color support and by extension svg.
