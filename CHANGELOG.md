@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+### 0.0.8
+
+- Add color for tsx binding pattern array and object.
+
 ### 0.0.7
 
 - Add better pure html file color support.

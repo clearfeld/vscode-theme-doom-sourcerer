@@ -803,7 +803,11 @@
         "entity.name.variable",
         "punctuation.accessor.ts",
         "punctuation.separator.comma.ts",
-        "meta.jsx.children.tsx"
+        "meta.jsx.children.tsx",
+        "punctuation.definition.typeparameters.begin.tsx",
+        "punctuation.definition.typeparameters.end.tsx",
+        "punctuation.definition.binding-pattern.array.tsx",
+        "punctuation.definition.binding-pattern.object.tsx"
       ],
       "settings": {
         "foreground": "#c2c2b0"
@@ -937,7 +941,6 @@
       }
     },
 
-
     {
       "scope": [
         "punctuation.separator.key-value.html",
@@ -948,5 +951,6 @@
     },
 
     // HTML END
+
   ]
 }
