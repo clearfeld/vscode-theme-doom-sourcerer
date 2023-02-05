@@ -754,27 +754,80 @@
 
     {
       "scope": [
-        "keyword.control.import.tsx",
-        "keyword.control.from.tsx",
-        "keyword.control.flow.tsx",
-        "keyword.control.conditional.tsx",
+        "keyword.control.loop.js",
+        "keyword.control.loop.ts",
+        "keyword.control.loop.jsx",
         "keyword.control.loop.tsx",
+
+        "punctuation.definition.template-expression.begin.js",
+        "punctuation.definition.template-expression.begin.ts",
+        "punctuation.definition.template-expression.begin.jsx",
         "punctuation.definition.template-expression.begin.tsx",
+
+        "punctuation.definition.template-expression.end.js",
+        "punctuation.definition.template-expression.end.ts",
+        "punctuation.definition.template-expression.end.jsx",
         "punctuation.definition.template-expression.end.tsx",
-        "support.type.primitive.tsx",
+
+        "punctuation.definition.tag.begin.js",
+        "punctuation.definition.tag.begin.ts",
+        "punctuation.definition.tag.begin.jsx",
         "punctuation.definition.tag.begin.tsx",
+
+        "punctuation.definition.tag.end.js",
+        "punctuation.definition.tag.end.ts",
+        "punctuation.definition.tag.end.jsx",
         "punctuation.definition.tag.end.tsx",
-        "keyword.control.export.tsx",
+
+        "keyword.control.default.js",
+        "keyword.control.default.ts",
+        "keyword.control.default.jsx",
         "keyword.control.default.tsx",
+
+        "keyword.control.switch.js",
+        "keyword.control.switch.ts",
+        "keyword.control.switch.jsx",
         "keyword.control.switch.tsx",
+
+        "keyword.control.import.js",
         "keyword.control.import.ts",
+        "keyword.control.import.jsx",
+        "keyword.control.import.tsx",
+
+        "keyword.control.from.js",
         "keyword.control.from.ts",
-        "keyword.control.flow.ts",
+        "keyword.control.from.jsx",
+        "keyword.control.from.tsx",
+
+        "support.type.primitive.js",
         "support.type.primitive.ts",
+        "support.type.primitive.jsx",
+        "support.type.primitive.tsx",
+
+        "keyword.control.export.js",
         "keyword.control.export.ts",
+        "keyword.control.export.jsx",
+        "keyword.control.export.tsx",
+
+        "keyword.control.as.js",
         "keyword.control.as.ts",
+        "keyword.control.as.jsx",
+        "keyword.control.as.tsx",
+
+        "keyword.control.module.js",
+        "keyword.control.module.ts",
+        "keyword.control.module.jsx",
+        "keyword.control.module.tsx",
+
+        "keyword.control.conditional.js",
         "keyword.control.conditional.ts",
-        "keyword.control.as.tsx"
+        "keyword.control.conditional.jsx",
+        "keyword.control.conditional.tsx",
+
+        "keyword.control.flow.js",
+        "keyword.control.flow.ts",
+        "keyword.control.flow.jsx",
+        "keyword.control.flow.tsx",
       ],
       "settings": {
         "foreground": "#87AFD7"
@@ -783,31 +836,153 @@
 
     {
       "scope": [
-        "punctuation.definition.block.tsx",
-        "punctuation.terminator.statement.tsx",
-        "punctuation.section.embedded.begin.tsx",
-        "punctuation.section.embedded.end.tsx",
-        "punctuation.definition.parameters.begin.tsx",
-        "punctuation.definition.parameters.end.tsx",
-        "meta.object-literal.key.tsx",
-        "meta.brace.round.tsx",
-        "punctuation.separator.key-value.tsx",
-        "punctuation.separator.comma.tsx",
-        "variable.object.property.tsx",
-        "punctuation.definition.block.ts",
-        "punctuation.terminator.statement.ts",
-        "punctuation.definition.parameters.begin.ts",
-        "punctuation.definition.parameters.end.ts",
-        "keyword.operator.type.annotation.ts",
         "variable.parameter",
         "entity.name.variable",
-        "punctuation.accessor.ts",
+
+        "punctuation.definition.block.js",
+        "punctuation.definition.block.ts",
+        "punctuation.definition.block.jsx",
+        "punctuation.definition.block.tsx",
+
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.jsx",
+        "punctuation.terminator.statement.tsx",
+
+        "punctuation.section.embedded.begin.js",
+        "punctuation.section.embedded.begin.ts",
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.begin.tsx",
+
+        "punctuation.section.embedded.end.js",
+        "punctuation.section.embedded.end.ts",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.section.embedded.end.tsx",
+
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.begin.ts",
+        "punctuation.definition.parameters.begin.jsx",
+        "punctuation.definition.parameters.begin.tsx",
+
+        "punctuation.definition.parameters.end.js",
+        "punctuation.definition.parameters.end.ts",
+        "punctuation.definition.parameters.end.jsx",
+        "punctuation.definition.parameters.end.tsx",
+
+        "meta.object-literal.key.js",
+        "meta.object-literal.key.ts",
+        "meta.object-literal.key.jsx",
+        "meta.object-literal.key.tsx",
+
+        "meta.function.parameters.js",
+        "meta.function.parameters.ts",
+        "meta.function.parameters.jsx",
+        "meta.function.parameters.tsx",
+
+        "punctuation.separator.comma.js",
         "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.jsx",
+        "punctuation.separator.comma.tsx",
+
+        "variable.object.property.js",
+        "variable.object.property.ts",
+        "variable.object.property.jsx",
+        "variable.object.property.tsx",
+
+        "punctuation.definition.block.js",
+        "punctuation.definition.block.ts",
+        "punctuation.definition.block.jsx",
+        "punctuation.definition.block.tsx",
+
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.jsx",
+        "punctuation.terminator.statement.tsx",
+
+        "punctuation.definition.parameters.begin.js",
+        "punctuation.definition.parameters.begin.ts",
+        "punctuation.definition.parameters.begin.jsx",
+        "punctuation.definition.parameters.begin.tsx",
+
+        "punctuation.definition.parameters.end.js",
+        "punctuation.definition.parameters.end.ts",
+        "punctuation.definition.parameters.end.jsx",
+        "punctuation.definition.parameters.end.tsx",
+
+        "keyword.operator.type.annotation.js",
+        "keyword.operator.type.annotation.ts",
+        "keyword.operator.type.annotation.jsx",
+        "keyword.operator.type.annotation.tsx",
+
+        "punctuation.accessor.js",
+        "punctuation.accessor.ts",
+        "punctuation.accessor.jsx",
+        "punctuation.accessor.tsx",
+
+        "punctuation.separator.comma.js",
+        "punctuation.separator.comma.ts",
+        "punctuation.separator.comma.jsx",
+        "punctuation.separator.comma.tsx",
+
+        "meta.jsx.children.js",
+        "meta.jsx.children.ts",
+        "meta.jsx.children.jsx",
         "meta.jsx.children.tsx",
+
         "punctuation.definition.typeparameters.begin.tsx",
         "punctuation.definition.typeparameters.end.tsx",
         "punctuation.definition.binding-pattern.array.tsx",
-        "punctuation.definition.binding-pattern.object.tsx"
+        "punctuation.definition.binding-pattern.object.tsx",
+
+        "punctuation.separator.key-value.js",
+        "punctuation.separator.key-value.ts",
+        "punctuation.separator.key-value.jsx",
+        "punctuation.separator.key-value.tsx",
+
+        "meta.delimiter.comma.js",
+        "meta.delimiter.comma.ts",
+        "meta.delimiter.comma.jsx",
+        "meta.delimiter.comma.tsx",
+
+        "meta.brace.round.js",
+        "meta.brace.round.ts",
+        "meta.brace.round.jsx",
+        "meta.brace.round.tsx",
+
+        "meta.function-call.with-arguments.js",
+        "meta.function-call.with-arguments.ts",
+        "meta.function-call.with-arguments.jsx",
+        "meta.function-call.with-arguments.tsx",
+
+        "meta.method-call.with-arguments.js",
+        "meta.method-call.with-arguments.ts",
+        "meta.method-call.with-arguments.jsx",
+        "meta.method-call.with-arguments.tsx",
+
+        "meta.method-call.without-arguments.js",
+        "meta.method-call.without-arguments.ts",
+        "meta.method-call.without-arguments.jsx",
+        "meta.method-call.without-arguments.tsx",
+
+        "meta.function.arrow.js",
+        "meta.function.arrow.ts",
+        "meta.function.arrow.jsx",
+        "meta.function.arrow.tsx",
+
+        "meta.brace.curly.litobj.js",
+        "meta.brace.curly.litobj.ts",
+        "meta.brace.curly.litobj.jsx",
+        "meta.brace.curly.litobj.tsx",
+
+        "meta.brace.curly.js",
+        "meta.brace.curly.ts",
+        "meta.brace.curly.jsx",
+        "meta.brace.curly.tsx",
+
+        "punctuation.terminator.statement.js",
+        "punctuation.terminator.statement.ts",
+        "punctuation.terminator.statement.jsx",
+        "punctuation.terminator.statement.tsx"
       ],
       "settings": {
         "foreground": "#c2c2b0"
@@ -816,9 +991,20 @@
 
     {
       "scope": [
+        "string.quoted.single.js",
         "string.quoted.single.ts",
+        "string.quoted.single.jsx",
+        "string.quoted.single.tsx",
+
+        "punctuation.definition.string.begin.js",
         "punctuation.definition.string.begin.ts",
-        "punctuation.definition.string.end.ts"
+        "punctuation.definition.string.begin.jsx",
+        "punctuation.definition.string.begin.tsx",
+
+        "punctuation.definition.string.end.js",
+        "punctuation.definition.string.end.ts",
+        "punctuation.definition.string.end.jsx",
+        "punctuation.definition.string.end.tsx",
       ],
       "settings": {
         "foreground": "#87875F"
@@ -827,11 +1013,27 @@
 
     {
       "scope": [
-        "punctuation.accessor.optional.ts",
-        "keyword.operator.optional.ts",
-        "variable.language.super.ts",
         "defaultLibrary",
-        "variable.language.this.ts"
+
+        "punctuation.accessor.optional.js",
+        "punctuation.accessor.optional.ts",
+        "punctuation.accessor.optional.jsx",
+        "punctuation.accessor.optional.tsx",
+
+        "keyword.operator.optional.js",
+        "keyword.operator.optional.ts",
+        "keyword.operator.optional.jsx",
+        "keyword.operator.optional.tsx",
+
+        "variable.language.super.js",
+        "variable.language.super.ts",
+        "variable.language.super.jsx",
+        "variable.language.super.tsx",
+
+        "variable.language.this.js",
+        "variable.language.this.ts",
+        "variable.language.this.jsx",
+        "variable.language.this.tsx"
       ],
       "settings": {
         "foreground": "#719611"
@@ -839,7 +1041,12 @@
     },
 
     {
-      "scope": ["variable.other.property.ts"],
+      "scope": [
+        "variable.other.property.js",
+        "variable.other.property.ts",
+        "variable.other.property.jsx",
+        "variable.other.property.tsx"
+      ],
       "settings": {
         "foreground": "#578F8F"
       }
@@ -857,7 +1064,10 @@
         // "entity.name.function.ts",
         // "method",
         // "entity.name.function.member",
-        "variable.language.this.ts"
+        "variable.language.this.js",
+        "variable.language.this.ts",
+        "variable.language.this.jsx",
+        "variable.language.this.tsx",
       ],
       "settings": {
         "foreground": "#faf4c6"
@@ -866,11 +1076,32 @@
 
     {
       "scope": [
+        "entity.name.function.js",
+        "entity.name.function.ts",
+        "entity.name.function.jsx",
         "entity.name.function.tsx",
+
+        "entity.name.type.interface.js",
+        "entity.name.type.interface.ts",
+        "entity.name.type.interface.jsx",
         "entity.name.type.interface.tsx",
+
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.ts",
+        "variable.other.readwrite.jsx",
         "variable.other.readwrite.tsx",
+
+        "variable.other.readwrite.alias.js",
         "variable.other.readwrite.alias.ts",
-        "entity.name.type.class"
+        "variable.other.readwrite.alias.jsx",
+        "variable.other.readwrite.alias.tsx",
+
+        "entity.name.type.class",
+
+        "entity.name.function.js",
+        "entity.name.function.ts",
+        "entity.name.function.jsx",
+        "entity.name.function.tsx"
       ],
       "settings": {
         "foreground": "#8181a6"

@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Released]
 
+### 0.0.9
+
+- Better consistency between javascript, typescript, jsx, and tsx.
+
 ### 0.0.8
 
 - Add color for tsx binding pattern array and object.

@@ -6,7 +6,7 @@ A port of the doom-emacs sourcerer theme
 
 ## Currently supported
 
-* Javascript & Typescript
+* Javascript / Typescript / JSX / TSX
 * Rust
 * Json
 * Html
